@@ -22,7 +22,7 @@ const SearchForm: React.FC<IProps> = ({ onSubmit }) => {
   return (
     <div className="px-4 md:px-8 md:text-center my-4 md:mt-24 md:mb-20">
       <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-        Información del país que desees
+        ¿Qué país estas buscando?
       </p>
       <form
         onSubmit={handleSubmit}
@@ -32,7 +32,7 @@ const SearchForm: React.FC<IProps> = ({ onSubmit }) => {
           <TextField
             value={search}
             name="search"
-            placeholder="Buscar un país..."
+            placeholder="Escribe el nombre(en inglés) o un alpha2code de un país"
             autoComplete="searchCountry"
             onInput={handleChange}
           />
