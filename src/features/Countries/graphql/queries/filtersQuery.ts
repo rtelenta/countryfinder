@@ -2,17 +2,17 @@ import { gql } from "@apollo/client";
 
 const searchFiltersQuery = gql`
   query {
-    Language(orderBy: name_asc) {
+    Language(orderBy: name_asc, filter: { name_not: "null" }) {
       _id
       name
     }
 
-    Currency(orderBy: name_asc) {
+    Currency(orderBy: name_asc, filter: { name_not: "null" }) {
       _id
       name
     }
 
-    Region(orderBy: name_asc) {
+    Region(orderBy: name_asc, filter: { name_not: "null" }) {
       _id
       name
     }

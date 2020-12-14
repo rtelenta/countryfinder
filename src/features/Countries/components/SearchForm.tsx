@@ -35,7 +35,7 @@ const SearchForm: React.FC<IProps> = ({ onSubmit }) => {
           <TextField
             value={search}
             name="search"
-            placeholder="Escribe el nombre(en inglés) o un alpha2code de un país"
+            placeholder="Escribe un país(en inglés) o un alpha2code"
             autoComplete="searchCountry"
             onInput={handleChange}
           />

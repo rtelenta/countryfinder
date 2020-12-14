@@ -11,11 +11,7 @@ function useFilters() {
   );
 
   const parseToFilterOptions = (items: filterType[]) => {
-    const unknownName = "null";
-
-    return items
-      .filter((item) => item.name !== unknownName)
-      .map((item) => ({ value: item.name, label: item.name }));
+    return items.map((item) => ({ value: item.name, label: item.name }));
   };
 
   const { currencyOptions, languageOptions, regionOptions } = useMemo(() => {
