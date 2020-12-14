@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import Sidebar from "features/Countries/components/Sidebar";
+import Sidebar from "../../components/Sidebar";
 
 describe("Sidebar tests", () => {
   test("render", () => {

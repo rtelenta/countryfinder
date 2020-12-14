@@ -27,6 +27,7 @@ type countryListVarsType = {
   alpha2Code: string;
   name: string;
   filter?: filterVarType[];
+  offset: number;
 };
 
 export default countryListVarsType;

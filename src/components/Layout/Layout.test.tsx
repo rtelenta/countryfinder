@@ -1,5 +1,5 @@
 import { screen } from "@testing-library/react";
-import renderWithRouter from "mocks/renderWithRouter";
+import renderWithRouter from "__mocks__/renderWithRouter";
 import Layout from "./";
 
 describe("Layout tests", () => {

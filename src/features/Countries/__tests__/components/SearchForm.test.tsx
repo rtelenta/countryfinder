@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import SearchForm from "features/Countries/components/SearchForm";
+import SearchForm from "../../components/SearchForm";
 
 describe("SearchForm tests", () => {
   test("render", () => {
