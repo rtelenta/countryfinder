@@ -1,6 +1,6 @@
 interface IProps {
   countryName: string;
-  className: string;
+  className?: string;
 }
 
 const CountryMap: React.FC<IProps> = ({ countryName, className = "" }) => {
@@ -8,6 +8,7 @@ const CountryMap: React.FC<IProps> = ({ countryName, className = "" }) => {
 
   return (
     <iframe
+      data-testid="CountryMap"
       className={`bg-gray-200 ${className}`}
       title={countryName}
       frameBorder="0"

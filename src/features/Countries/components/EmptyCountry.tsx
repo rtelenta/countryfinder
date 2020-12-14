@@ -4,7 +4,7 @@ import { routes } from "routes/routing";
 
 const EmptyCountry: React.FC = () => {
   return (
-    <div className="py-12 bg-white mt-16">
+    <div className="py-12 bg-white mt-16" data-testid="EmptyCountry">
       <div className="max-w-7xl mx-auto md:flex items-center">
         <div className="md:w-1/2 sm:mx-6 lg:mx-8 mb-8 flex justify-center">
           <p className="mb-16 text-gray-900 text-center my-8 text-lg max-w-xs">

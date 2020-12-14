@@ -6,7 +6,7 @@ interface IProps {
 
 const CountryInfo: React.FC<IProps> = ({ preTitle, title, img }) => {
   return (
-    <div className="lg:text-center md:w-1/2">
+    <div className="lg:text-center md:w-1/2" data-testid="CountryInfo">
       <p className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
         {preTitle}
       </p>
