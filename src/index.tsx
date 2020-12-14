@@ -6,11 +6,9 @@ import Routes from "routes";
 import "./global.css";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <AppProvider>
-      <Routes />
-    </AppProvider>
-  </React.StrictMode>,
+  <AppProvider>
+    <Routes />
+  </AppProvider>,
   document.getElementById("root")
 );
 
