@@ -5,4 +5,5 @@
 html,
 body {
   @apply font-sans;
+  @apply bg-gray-100 text-gray-500;
 }
