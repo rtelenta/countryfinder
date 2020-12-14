@@ -15,7 +15,7 @@ const CountryInfo: React.FC<IProps> = ({ preTitle, title, img }) => {
       </h2>
       <div className="mt-4 max-w-2xl lg:mx-auto">
         <img
-          className="max-w-xs w-full lg:mx-auto"
+          className="max-w-xs w-full lg:mx-auto shadow"
           src={img}
           alt={`${title}`}
         />
