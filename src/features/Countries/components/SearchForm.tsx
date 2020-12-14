@@ -20,7 +20,10 @@ const SearchForm: React.FC<IProps> = ({ onSubmit }) => {
   };
 
   return (
-    <div className="px-4 md:px-8 md:text-center my-4 md:mt-24 md:mb-20">
+    <div
+      className="px-4 md:px-8 md:text-center my-4 md:mt-24 md:mb-20"
+      data-testid="SearchForm"
+    >
       <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
         ¿Qué país estas buscando?
       </p>
