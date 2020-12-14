@@ -7,7 +7,7 @@ interface IProps {
 
 const ListItem: React.FC<IProps> = ({ icon, label, value, className = "" }) => {
   return (
-    <div className={`flex mb-8 ${className}`}>
+    <div className={`flex mb-8 ${className}`} data-testid="ListItem">
       <div className="flex-shrink-0">
         <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
           {icon}
