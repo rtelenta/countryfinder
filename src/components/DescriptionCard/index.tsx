@@ -34,7 +34,11 @@ const DescriptionCard: React.FC<IProps> = ({
           {title} <sup>{supText}</sup>
         </h3>
         <div className="flex-none mx-4">
-          <img className="w-10" src={titleImg} alt={`bandera de ${title}`} />
+          <img
+            className="w-10 shadow"
+            src={titleImg}
+            alt={`bandera de ${title}`}
+          />
         </div>
         <div className="ml-auto">
           <Button variant="outline" onClick={onClick}>

@@ -2,10 +2,10 @@ import { useQuery } from "@apollo/client";
 import { useMemo } from "react";
 import filtersQuery from "../graphql/queries/filtersQuery";
 import filterType from "../graphql/types/filterType";
-import searchFiltersType from "../graphql/types/searchFilterTypes";
+import searchFilterDataTypes from "../graphql/types/searchFilterDataTypes";
 
 function useFilters() {
-  const { loading, error, data, refetch } = useQuery<searchFiltersType>(
+  const { loading, error, data, refetch } = useQuery<searchFilterDataTypes>(
     filtersQuery,
     {}
   );

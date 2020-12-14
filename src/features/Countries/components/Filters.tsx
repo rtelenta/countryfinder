@@ -79,6 +79,13 @@ const Filters: React.FC<IProps> = ({ onChange }) => {
     <Sidebar title={title}>
       <Select
         className="mb-4"
+        options={regionOptions}
+        placeholder="Por región"
+        onChange={handleChange("region")}
+        isClearable
+      />
+      <Select
+        className="mb-4"
         options={languageOptions}
         placeholder="Por idioma"
         onChange={handleChange("language")}
@@ -89,13 +96,6 @@ const Filters: React.FC<IProps> = ({ onChange }) => {
         options={currencyOptions}
         placeholder="Por moneda"
         onChange={handleChange("currency")}
-        isClearable
-      />
-      <Select
-        className="mb-4"
-        options={regionOptions}
-        placeholder="Por región"
-        onChange={handleChange("region")}
         isClearable
       />
     </Sidebar>
