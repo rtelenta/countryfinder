@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/countryfinder/static/css/main.013b1c90.chunk.css",
-    "main.js": "/countryfinder/static/js/main.f8a88aad.chunk.js",
-    "main.js.map": "/countryfinder/static/js/main.f8a88aad.chunk.js.map",
+    "main.js": "/countryfinder/static/js/main.87f2b681.chunk.js",
+    "main.js.map": "/countryfinder/static/js/main.87f2b681.chunk.js.map",
     "runtime-main.js": "/countryfinder/static/js/runtime-main.cd30b92c.js",
     "runtime-main.js.map": "/countryfinder/static/js/runtime-main.cd30b92c.js.map",
     "static/js/2.a387b14a.chunk.js": "/countryfinder/static/js/2.a387b14a.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.cd30b92c.js",
     "static/js/2.a387b14a.chunk.js",
     "static/css/main.013b1c90.chunk.css",
-    "static/js/main.f8a88aad.chunk.js"
+    "static/js/main.87f2b681.chunk.js"
   ]
 }
