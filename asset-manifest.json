@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/countryfinder/static/css/main.013b1c90.chunk.css",
-    "main.js": "/countryfinder/static/js/main.87f2b681.chunk.js",
-    "main.js.map": "/countryfinder/static/js/main.87f2b681.chunk.js.map",
-    "runtime-main.js": "/countryfinder/static/js/runtime-main.cd30b92c.js",
-    "runtime-main.js.map": "/countryfinder/static/js/runtime-main.cd30b92c.js.map",
-    "static/js/2.a387b14a.chunk.js": "/countryfinder/static/js/2.a387b14a.chunk.js",
-    "static/js/2.a387b14a.chunk.js.map": "/countryfinder/static/js/2.a387b14a.chunk.js.map",
-    "static/js/3.6732c946.chunk.js": "/countryfinder/static/js/3.6732c946.chunk.js",
-    "static/js/3.6732c946.chunk.js.map": "/countryfinder/static/js/3.6732c946.chunk.js.map",
+    "main.js": "/countryfinder/static/js/main.9dafc51e.chunk.js",
+    "main.js.map": "/countryfinder/static/js/main.9dafc51e.chunk.js.map",
+    "runtime-main.js": "/countryfinder/static/js/runtime-main.9bb7de77.js",
+    "runtime-main.js.map": "/countryfinder/static/js/runtime-main.9bb7de77.js.map",
+    "static/js/2.65e70648.chunk.js": "/countryfinder/static/js/2.65e70648.chunk.js",
+    "static/js/2.65e70648.chunk.js.map": "/countryfinder/static/js/2.65e70648.chunk.js.map",
+    "static/js/3.b7736a74.chunk.js": "/countryfinder/static/js/3.b7736a74.chunk.js",
+    "static/js/3.b7736a74.chunk.js.map": "/countryfinder/static/js/3.b7736a74.chunk.js.map",
     "index.html": "/countryfinder/index.html",
     "static/css/main.013b1c90.chunk.css.map": "/countryfinder/static/css/main.013b1c90.chunk.css.map",
-    "static/js/2.a387b14a.chunk.js.LICENSE.txt": "/countryfinder/static/js/2.a387b14a.chunk.js.LICENSE.txt",
+    "static/js/2.65e70648.chunk.js.LICENSE.txt": "/countryfinder/static/js/2.65e70648.chunk.js.LICENSE.txt",
     "static/media/no-search-results-icon.67119f84.svg": "/countryfinder/static/media/no-search-results-icon.67119f84.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cd30b92c.js",
-    "static/js/2.a387b14a.chunk.js",
+    "static/js/runtime-main.9bb7de77.js",
+    "static/js/2.65e70648.chunk.js",
     "static/css/main.013b1c90.chunk.css",
-    "static/js/main.87f2b681.chunk.js"
+    "static/js/main.9dafc51e.chunk.js"
   ]
 }
