@@ -5,7 +5,7 @@ import { routes } from "./routing";
 import Layout from "components/Layout";
 
 const Routes: React.FC = () => {
-  const basename = process.env.REACT_APP_BASE_NAME;
+  const basename = process.env.PUBLIC_URL;
   return (
     <Router basename={basename}>
       <Layout>
