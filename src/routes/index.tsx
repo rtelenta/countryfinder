@@ -5,8 +5,9 @@ import { routes } from "./routing";
 import Layout from "components/Layout";
 
 const Routes: React.FC = () => {
+  const basename = process.env.REACT_APP_BASE_NAME;
   return (
-    <Router>
+    <Router basename={basename}>
       <Layout>
         <Switch>
           <Route exact path={routes.home} component={Countries} />
